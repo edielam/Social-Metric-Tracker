@@ -14,7 +14,7 @@ public class Post {
     private String content;
 
     @Column(nullable = false)
-    private String user;
+    private String username;
 
     @Column(nullable = false)
     private int likes= 0;
